@@ -2,6 +2,14 @@ import React,{Component} from 'react'
 import './App.css'
 import bg from './yellow-stroke.svg'
 import {Home} from './components/home.js'
+import {Limbo} from './components/limbo.js'
+import {Hit} from './components/hit-the-int.js'
+import {Dart} from './components/dart-bal.js'
+import {Cookie} from './components/face-cookie.js'
+import {Chop} from './components/chop-shot.js'
+import {Mortal} from './components/mortal-combat.js'
+import {Tic} from './components/tic-toe.js'
+import {Who} from './components/who-we.js'
 
 export default class App extends Component{
   constructor(){
@@ -254,19 +262,35 @@ renderElement(){
 
   if (this.state.initial === 2)
   return(
-    <div className="limbo">hi</div>
+    <Limbo />
   )
   if (this.state.initial === 3)
   return(
-    <div>hi</div>
+    <Hit />
   )
   if (this.state.initial === 4)
   return(
-    <div>hi</div>
+    <Dart />
   )
   if (this.state.initial === 5)
   return(
-    <div>hi</div>
+    <Cookie />
+  )
+  if (this.state.initial === 6)
+  return(
+    <Chop />
+  )
+  if (this.state.initial === 7)
+  return(
+    <Mortal />
+  )
+  if (this.state.initial === 8)
+  return(
+    <Tic />
+  )
+  if (this.state.initial === 9)
+  return(
+    <Who />
   )
 
   return null;
