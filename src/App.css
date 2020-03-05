@@ -12,15 +12,18 @@
   justify-content: space-between;
   padding: 25px 0;
 }
-.container .link-list button{
+.container .link-list .bt{
   background: transparent;
   border: none;
   font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  background-repeat: no-repeat
 }
-.container .link-list button:hover{
-  background-color: black;
-  color: #ffda1e;
-}
+
+
 .container .display{
   width: 80%;
 }
@@ -28,3 +31,6 @@
   display: flex;
   justify-content: center;
 }
+.limbo{
+  color: white;
+  }
