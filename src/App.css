@@ -3,6 +3,7 @@
   background-color: black;
   width: 100%;
   height: 100vh;
+  overflow: hidden;
 }
 .container .link-list{
   width: 20%;
@@ -13,23 +14,25 @@
   padding: 25px 0;
 }
 .container .link-list .bt{
-  background: transparent;
   border: none;
   font-size: 30px;
   cursor: pointer;
   text-align: center;
-  color: white;
+  color: black;
   padding: 20px;
   background-repeat: no-repeat
 }
-
-
 .container .display{
   width: 80%;
 }
 .home{
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.home img{
+  width: 75%;
 }
 .limbo{
   color: white;

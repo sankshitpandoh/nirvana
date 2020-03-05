@@ -26,6 +26,15 @@ export default class App extends Component{
       l6: "#ffda1e",
       l7: "#ffda1e",
       l8: "#ffda1e",
+      c: "white",
+      c1: "black",
+      c2: "black",
+      c3: "black",
+      c4: "black",
+      c5: "black",
+      c6: "black",
+      c7: "black",
+      c8: "black",
     }
 }
 handleClick(){
@@ -40,6 +49,15 @@ handleClick(){
         l6: "none",
         l7: "none",
         l8: "none",
+        c:  "white",
+        c1: "black",
+        c2: "black",
+        c3: "black",
+        c4: "black",
+        c5: "black",
+        c6: "black",
+        c7: "black",
+        c8: "black",
     })
 }
 handleClick1(){
@@ -54,6 +72,15 @@ handleClick1(){
     l6: "none",
     l7: "none",
     l8: "none",
+    c:  "black",
+    c1: "white",
+    c2: "black",
+    c3: "black",
+    c4: "black",
+    c5: "black",
+    c6: "black",
+    c7: "black",
+    c8: "black",
   })
 }
 handleClick2(){
@@ -68,6 +95,15 @@ handleClick2(){
     l6: "#ffda1e",
     l7: "#ffda1e",
     l8: "#ffda1e",
+    c: "black",
+    c1: "black",
+    c2: "white",
+    c3: "black",
+    c4: "black",
+    c5: "black",
+    c6: "black",
+    c7: "black",
+    c8: "black",
   })
 }
 handleClick3(){
@@ -82,6 +118,15 @@ handleClick3(){
     l6: "none",
     l7: "none",
     l8: "none",
+    c: "black",
+    c1: "black",
+    c2: "black",
+    c3: "white",
+    c4: "black",
+    c5: "black",
+    c6: "black",
+    c7: "black",
+    c8: "black",
   })
 }
 handleClick4(){
@@ -96,6 +141,15 @@ handleClick4(){
     l6: "none",
     l7: "none",
     l8: "none",
+    c: "black",
+    c1: "black",
+    c2: "black",
+    c3: "black",
+    c4: "white",
+    c5: "black",
+    c6: "black",
+    c7: "black",
+    c8: "black",
   })
 }
 handleClick5(){
@@ -110,6 +164,15 @@ handleClick5(){
     l6: "none",
     l7: "none",
     l8: "none",
+    c:"black",
+    c1: "black",
+    c2: "black",
+    c3: "black",
+    c4: "black",
+    c5: "white",
+    c6: "black",
+    c7: "black",
+    c8: "black",
   })
 }
 handleClick6(){
@@ -124,6 +187,15 @@ handleClick6(){
     l6: "url("+bg+")",
     l7: "none",
     l8: "none",
+    c: "black",
+    c1: "black",
+    c2: "black",
+    c3: "black",
+    c4: "black",
+    c5: "black",
+    c6: "white",
+    c7: "black",
+    c8: "black",
   })
 }
 handleClick7(){
@@ -138,6 +210,15 @@ handleClick7(){
     l6: "none",
     l7: "url("+bg+")",
     l8: "none",
+    c: "black",
+    c1: "black",
+    c2: "black",
+    c3: "black",
+    c4: "black",
+    c5: "black",
+    c6: "black",
+    c7: "white",
+    c8: "black",
 
   })
 }
@@ -153,6 +234,15 @@ handleClick8(){
     l6: "none",
     l7: "none",
     l8: "url("+bg+")",
+    c: "black",
+    c1: "black",
+    c2: "black",
+    c3: "black",
+    c4: "black",
+    c5: "black",
+    c6: "black",
+    c7: "black",
+    c8: "white",
   })
 }
 
@@ -188,15 +278,15 @@ renderElement(){
     return(
       <div className='container'>
                     <div className='link-list'>
-                    <div onClick={this.handleClick} style={{backgroundImage: this.state.l }} className='bt'>HOME</div>
-                    <div onClick={this.handleClick1} style={{backgroundImage: this.state.l1 }} className='bt'>Limbo</div>
-                    <div onClick={this.handleClick2} style={{backgroundImage: this.state.l2 }} className='bt'>Hit the Interns</div>
-                    <div onClick={this.handleClick3} style={{backgroundImage: this.state.l3 }} className='bt'>Dart Balloons</div>
-                    <div onClick={this.handleClick4} style={{backgroundImage: this.state.l4 }}className='bt'>Face the Cookie</div>
-                    <div onClick={this.handleClick5} style={{backgroundImage: this.state.l5 }} className='bt'>ChopShots</div>
-                    <div onClick={this.handleClick6} style={{backgroundImage: this.state.l6 }} className='bt'>Mortal Kombat</div>
-                    <div onClick={this.handleClick7} style={{backgroundImage: this.state.l7 }} className='bt'>Flic Tac Toe</div>
-                    <div onClick={this.handleClick8} style={{backgroundImage: this.state.l8 }} className='bt'>Who we are</div>
+                    <div onClick={this.handleClick} style={{backgroundImage: this.state.l, color: this.state.c }} className='bt'>HOME</div>
+                    <div onClick={this.handleClick1} style={{backgroundImage: this.state.l1, color: this.state.c1 }} className='bt'>Limbo</div>
+                    <div onClick={this.handleClick2} style={{backgroundImage: this.state.l2, color: this.state.c2 }} className='bt'>Hit the Interns</div>
+                    <div onClick={this.handleClick3} style={{backgroundImage: this.state.l3, color: this.state.c3 }} className='bt'>Dart Balloons</div>
+                    <div onClick={this.handleClick4} style={{backgroundImage: this.state.l4, color: this.state.c4 }}className='bt'>Face the Cookie</div>
+                    <div onClick={this.handleClick5} style={{backgroundImage: this.state.l5, color: this.state.c5 }} className='bt'>ChopShots</div>
+                    <div onClick={this.handleClick6} style={{backgroundImage: this.state.l6, color: this.state.c6 }} className='bt'>Mortal Kombat</div>
+                    <div onClick={this.handleClick7} style={{backgroundImage: this.state.l7, color: this.state.c7 }} className='bt'>Flic Tac Toe</div>
+                    <div onClick={this.handleClick8} style={{backgroundImage: this.state.l8, color: this.state.c8 }} className='bt'>Who we are</div>
                     </div>
                     <div className='display'>
                       {this.renderElement()}
