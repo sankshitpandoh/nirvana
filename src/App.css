@@ -39,45 +39,7 @@
 .container .display{
   width: 100%;
 }
-@-webkit-keyframes big{
-  0%{
-    width: 40%
-  }
-  50%{
-    width: 50%;
-  }
-  100%{
-    width: 40%;
-  }
-}
-@keyframes big{
-  0%{
-    width: 40%
-  }
-  50%{
-    width: 50%;
-  }
-  100%{
-    width: 40%;
-  }
-}
-.home{
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100vh;
-}
-.home img{
-  width: 50%;
-  -webkit-animation: big 4s infinite;
-          animation: big 4s infinite;
-}
+
 .limbo{
   color: white;
   }

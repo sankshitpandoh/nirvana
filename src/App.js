@@ -1,7 +1,7 @@
 import React,{Component} from 'react'
 import './App.css'
-import logo from './logo.svg'
 import bg from './yellow-stroke.svg'
+import {Home} from './components/home.js'
 
 export default class App extends Component{
   constructor(){
@@ -164,7 +164,7 @@ handleClick5(){
     l6: "none",
     l7: "none",
     l8: "none",
-    c:"white",
+    c:  "white",
     c1: "white",
     c2: "white",
     c3: "white",
@@ -249,14 +249,12 @@ handleClick8(){
 renderElement(){
   if(this.state.initial === 1 ){
      return(
-       <div class="home">
-       <img src={logo} className="App-logo" alt="logo" />
-       </div>
+       <Home />
      );}
 
   if (this.state.initial === 2)
   return(
-    <div class="limbo">hi</div>
+    <div className="limbo">hi</div>
   )
   if (this.state.initial === 3)
   return(
