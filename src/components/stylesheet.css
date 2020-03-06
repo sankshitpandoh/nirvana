@@ -56,5 +56,16 @@
 }
 .card-grid .item{
   max-width: 30%;
-  flex: 0 0 30%
+  flex: 0 0 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.card-grid .item h3{
+  color: #ffda1e;
+}
+.card-grid .item figure{
+  height: 150px;
+  width: 150px;
+  background-color: white
 }

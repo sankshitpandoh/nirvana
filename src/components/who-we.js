@@ -39,6 +39,10 @@ export function Who(){
         </div>
 
       </div>
+      <p>We at Nirvana believe in giving back. So, We have decided that we will
+      donate 50% of the profits we get to the purpose of feeding hungry kids.
+      Thank You!
+      </p>
       </div>
     )
 }
