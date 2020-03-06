@@ -26,7 +26,7 @@ export function Tic(){
 
       <div class="price">
       <h3>Prize</h3>
-      <h3>30rs</h3>
+      <h3>Goodies</h3>
       </div>
 
       </div>

@@ -11,6 +11,11 @@ export function Dart(){
       Use a blowgun to burst them bubbles.
       A new take on the old fashioned game.
       </p>
+      <p>
+      There's a rumor that the team of Nirvana were able to convince Santa
+      Claus to hide some goodies in some balloons. Hey, don't look at me,
+      I'm just a messenger. Good luck!
+      </p>
 
       <div class="price-cont">
 
@@ -19,10 +24,6 @@ export function Dart(){
       <h3>30rs</h3>
       </div>
 
-      <div class="price">
-      <h3>Prize</h3>
-      <h3>50rs</h3>
-      </div>
 
       </div>
       </div>

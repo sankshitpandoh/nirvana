@@ -13,7 +13,8 @@ export function Chop(){
       chopsticks. What is a reward without a challenge?!
       </p>
       <p>
-      Mann mein laddoo phoota kya?
+      Yes yes, you can eat those shots you picked,<br /> Ab
+      mann mein laddoo phoota kya?
       </p>
       <div class="price-cont">
 

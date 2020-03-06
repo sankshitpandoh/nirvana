@@ -13,6 +13,11 @@ export function Mortal(){
       has the edge!
       The winner doesn’t pay!
       </p>
+      <p>
+      Do you prefer Skorpion? Or are you one with thunder like Raiden?
+      Are you as cold as Sub - Zero, or are you as sneaky as Reptile?
+      Get ready for Kombat and show us how its done!
+      </p>
       <div class="price-cont">
 
       <div class="price">
@@ -22,7 +27,7 @@ export function Mortal(){
 
       <div class="price">
       <h3>Prize</h3>
-      <h3>Winner doesn't pay</h3>
+      <h3>Winners never pay</h3>
       </div>
 
       </div>

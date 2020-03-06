@@ -58,11 +58,7 @@
 .price-cont .price:nth-child(2){
   color: #ffda1e
 }
-/* .main h1:hover:after{
 
-    width: 0%;
-
-} */
 @keyframes underline{
 
     100%{

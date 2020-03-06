@@ -22,7 +22,7 @@ export function Cookie(){
 
       <div class="price">
       <h3>Prize</h3>
-      <h3>50rs</h3>
+      <h3>Goodies</h3>
       </div>
 
       </div>
