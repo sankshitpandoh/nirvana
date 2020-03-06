@@ -50,3 +50,11 @@
 .container .display{
   width: 100%;
 }
+@media (max-width:767px){
+  .container .link-list{
+    width: 35%
+  }
+  .container .link-list .bt{
+    font-size: 15px
+  }
+}
