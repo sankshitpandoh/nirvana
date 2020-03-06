@@ -50,20 +50,3 @@
 .container .display{
   width: 100%;
 }
-
-
-  @media (max-width:740px) {
-    .container{
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-    }
-    .container .link-list{
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-              flex-direction: row;
-      border: none
-    }
-  }
