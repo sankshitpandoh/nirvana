@@ -8,7 +8,10 @@ export function Cookie(){
       <h2>Be the cookie monster and take on the challenge!</h2>
       <p>
       If you win, you get to keep the whole packet.
-      P.S. You have only one minute, so better hurry up!
+      You have only one minute, so better hurry up!
+      </p>
+      <p>
+      PS: Beta, tumse na ho payega!
       </p>
       <div class="price-cont">
 

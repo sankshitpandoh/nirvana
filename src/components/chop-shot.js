@@ -12,6 +12,9 @@ export function Chop(){
       But there is a catch! You will have to use our
       chopsticks. What is a reward without a challenge?!
       </p>
+      <p>
+      Mann mein laddoo phoota kya?
+      </p>
       <div class="price-cont">
 
       <div class="price">
