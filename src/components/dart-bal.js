@@ -11,7 +11,20 @@ export function Dart(){
       Use a blowgun to burst them bubbles.
       A new take on the old fashioned game.
       </p>
-      <h3></h3>
+      
+      <div class="price-cont">
+
+      <div class="price">
+      <h3>Entry Fee</h3>
+      <h3>50rs</h3>
+      </div>
+
+      <div class="price">
+      <h3>Prize</h3>
+      <h3>50rs</h3>
+      </div>
+
+      </div>
       </div>
     )
 }

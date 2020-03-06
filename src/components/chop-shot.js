@@ -12,7 +12,19 @@ export function Chop(){
       But there is a catch! You will have to use our
       chopsticks. What is a reward without a challenge?!
       </p>
-      <h3></h3>
+      <div class="price-cont">
+
+      <div class="price">
+      <h3>Entry Fee</h3>
+      <h3>50rs</h3>
+      </div>
+
+      <div class="price">
+      <h3>Prize</h3>
+      <h3>50rs</h3>
+      </div>
+
+      </div>
       </div>
     )
 }

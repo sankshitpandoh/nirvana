@@ -12,7 +12,19 @@ export function Hit(){
        Do you have what it takes to pelt wet sponges at innocent,
        hardworking interns?
       </p>
-      <h3></h3>
+      <div class="price-cont">
+
+      <div class="price">
+      <h3>Entry Fee</h3>
+      <h3>50rs</h3>
+      </div>
+
+      <div class="price">
+      <h3>Prize</h3>
+      <h3>50rs</h3>
+      </div>
+
+      </div>
       </div>
     )
 }

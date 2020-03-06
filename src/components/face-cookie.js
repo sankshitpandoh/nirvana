@@ -10,7 +10,19 @@ export function Cookie(){
       If you win, you get to keep the whole packet.
       P.S. You have only one minute, so better hurry up!
       </p>
-      <h3></h3>
+      <div class="price-cont">
+
+      <div class="price">
+      <h3>Entry Fee</h3>
+      <h3>50rs</h3>
+      </div>
+
+      <div class="price">
+      <h3>Prize</h3>
+      <h3>50rs</h3>
+      </div>
+
+      </div>
       </div>
     )
 }
