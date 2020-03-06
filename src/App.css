@@ -51,6 +51,9 @@
   width: 100%;
 }
 @media (max-width:767px){
+  .container{
+    overflow: visible;
+  }
   .container .link-list{
     width: 35%
   }
