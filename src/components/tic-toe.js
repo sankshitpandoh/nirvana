@@ -10,7 +10,12 @@ export function Tic(){
       hiccup!
       </h2>
       <p>
-      Our unique take on the game of Tic Tac Toe.
+      This is where the rules of nature kick in! Only the fastest will survive!
+       Will you have the speed and accuracy to quickly topple cups?
+       Or will your ego be left toppled?
+      </p>
+      <p>
+      Our suggestion - Bring a buddy and challenge them!
       </p>
       <div class="price-cont">
 

@@ -22,7 +22,7 @@ export function Mortal(){
 
       <div class="price">
       <h3>Prize</h3>
-      <h3>30rs</h3>
+      <h3>Winner doesn't pay</h3>
       </div>
 
       </div>
