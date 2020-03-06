@@ -26,7 +26,7 @@ export function Limbo(){
 
       <div class="price">
       <h3>Prize</h3>
-      <h3>TbT*</h3>
+      <h3>Tbd*</h3>
       </div>
 
       </div>

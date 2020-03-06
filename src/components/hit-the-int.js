@@ -12,6 +12,10 @@ export function Hit(){
        Do you have what it takes to pelt wet sponges at innocent,
        hardworking interns?
       </p>
+      <p>
+      You get to throw 3 sponges at us! And if they hit, you get another shot!
+      You can throw upto 5 soaking sponges. We'll try not to cry.
+      </p>
       <div class="price-cont">
 
       <div class="price">
@@ -21,7 +25,7 @@ export function Hit(){
 
       <div class="price">
       <h3>Prize</h3>
-      <h3>50rs</h3>
+      <h3>Ab baccho ki jaan logey kya?</h3>
       </div>
 
       </div>
