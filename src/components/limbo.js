@@ -24,11 +24,6 @@ export function Limbo(){
       <h3>30rs</h3>
       </div>
 
-      <div class="price">
-      <h3>Prize</h3>
-      <h3>Tbd*</h3>
-      </div>
-
       </div>
 
       </div>

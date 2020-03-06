@@ -6,7 +6,6 @@ export function Home(){
     return(
       <div class="h-main">
       <img src={logo} className="App-logo" alt="logo" />
-
       </div>
     )
 }

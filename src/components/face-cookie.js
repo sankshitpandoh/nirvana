@@ -7,8 +7,8 @@ export function Cookie(){
       <h1>Face the cookie</h1>
       <h2>Be the cookie monster and take on the challenge!</h2>
       <p>
-      If you win, you get to keep the whole packet.
-      You have only one minute, so better hurry up!
+      Cookies. Hmmm. Have you ever wondered how hard eating cookies
+      can be? Well, time to find out. 
       </p>
       <p>
       PS: Beta, tumse na ho payega!
