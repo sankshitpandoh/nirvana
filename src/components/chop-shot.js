@@ -16,7 +16,7 @@ export function Chop(){
 
       <div class="price">
       <h3>Entry Fee</h3>
-      <h3>50rs</h3>
+      <h3>30rs</h3>
       </div>
 
       <div class="price">

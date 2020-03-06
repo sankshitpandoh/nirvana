@@ -21,7 +21,10 @@
 .main p{
   width: 50%;
   line-height: 1.2;
-  font-size: 30px
+  font-size: 30px;
+}
+.main p:nth-child(4){
+  color: #ffda1e
 }
 .main img{
   width: 50%;
@@ -33,7 +36,7 @@
 .main h2:after{
     content: "";
     position: absolute;
-    bottom: 0%;
+    bottom: 50%;
     left: 0%;
     height: 5px;
     background-color: black;
@@ -50,6 +53,9 @@
   flex-direction: row;
   width: 10%;
   justify-content: space-between;
+}
+.price-cont .price:nth-child(2){
+  color: #ffda1e
 }
 /* .main h1:hover:after{
 
