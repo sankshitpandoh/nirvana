@@ -1,6 +1,5 @@
 import React,{Component} from 'react'
 import './stylesheet.css'
-import limbo from './limbo.svg'
 
 export function Limbo(){
     return(
@@ -32,7 +31,6 @@ export function Limbo(){
 
       </div>
 
-      <img src={limbo} alt="limbo"/>
       </div>
     )
 }

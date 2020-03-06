@@ -36,9 +36,9 @@
 .main h2:after{
     content: "";
     position: absolute;
-    bottom: 50%;
+    bottom: 0%;
     left: 0%;
-    height: 5px;
+    height: 60px;
     background-color: black;
     width: 100%;
     animation: underline 5s forwards;
@@ -83,7 +83,7 @@
   padding: 20px 20px;
 }
 .card-grid .item h3{
-  color: #ffda1e;
+  color: white;
 }
 .card-grid .item figure{
   height: 150px;
@@ -103,5 +103,14 @@
   .main p{
     font-size: 10px;
     width: 90%
+  }
+  .main h2:after{
+    display: none
+  }
+  .price-cont .price{
+    width: 80%
+  }
+  .price-cont .price h3{
+    font-size: 10px;
   }
 }
