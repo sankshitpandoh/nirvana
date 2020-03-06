@@ -1,7 +1,7 @@
 import React,{Component} from 'react'
 import './stylesheet.css'
 import avatar1 from './sank-avatar.png'
-import avatar2 from './sank-avatar.png'
+import avatar2 from './akash-avatar.png'
 import avatar3 from './aum-avatar.png'
 import avatar4 from './shaifali-avatar.png'
 import avatar5 from './nidhi-avatar.png'

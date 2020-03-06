@@ -114,4 +114,12 @@
   .price-cont .price h3{
     font-size: 10px;
   }
+  .card-grid .item{
+    flex-direction: row;
+    padding: 10px 45px;
+  }
+  .card-grid .item figure img{
+    padding-left: 0px;
+    width: 100px;
+  }
 }
