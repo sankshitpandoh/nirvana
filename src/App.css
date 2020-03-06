@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'LeagueSpartan-Bold';
+  src: url(./fonts/LeagueSpartan-Bold.otf) format('opentype'),
+  url(./fonts/LeagueSpartan-Bold.eot) format('eot'),
+  url(./fonts/LeagueSpartan-Bold.svg) format('svg'),
+  url(./fonts/LeagueSpartan-Bold.woff) format('woff'),
+  url(./fonts/LeagueSpartan-Bold.woff2) format('woff2'),
+  url(./fonts/LeagueSpartan-Bold.ttf) format('ttf');
+}
 .container{
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9,6 +18,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          font-family: 'LeagueSpartan-Bold';
 }
 .container .link-list{
   width: 20%;
