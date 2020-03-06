@@ -1,0 +1,20 @@
+.main{
+  display: flex;
+  height: 75vh;
+  flex-direction: column;
+  padding: 0 50px;
+  color: white;
+  line-height: 0
+
+}
+.main h1{
+  font-size: 50px
+}
+.main h2{
+  color: #ffda1e;
+  font-size: 30px
+}
+.main p{
+  width: 50%;
+  line-height: 1.2
+}

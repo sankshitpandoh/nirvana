@@ -1,4 +1,4 @@
-.main{
+.h-main{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,7 +10,7 @@
           align-items: center;
   height: 100vh;
 }
-.main img{
+.h-main img{
   width: 50%;
   -webkit-animation: big 4s infinite;
           animation: big 4s infinite;
