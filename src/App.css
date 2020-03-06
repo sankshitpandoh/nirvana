@@ -45,6 +45,7 @@
   color: #ffda1e;
   padding: 20px;
   background-repeat: no-repeat;
+  text-transform:uppercase;
 }
 .container .display{
   width: 100%;

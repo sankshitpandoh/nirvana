@@ -4,17 +4,57 @@
   flex-direction: column;
   padding: 0 50px;
   color: white;
-  line-height: 0
+  line-height: 0;
 
 }
 .main h1{
-  font-size: 50px
+  font-size: 75px;
+  text-transform: uppercase;
 }
 .main h2{
   color: #ffda1e;
-  font-size: 30px
+  font-size: 45px
 }
 .main p{
   width: 50%;
-  line-height: 1.2
+  line-height: 1.2;
+  font-size: 30px
+}
+.main img{
+  width: 50%;
+  margin-left: auto;
+}
+.main h2{
+    position: relative;
+}
+.main h2:after{
+    content: "";
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    height: 5px;
+    background-color: black;
+    width: 100%;
+    animation: underline 5s forwards;
+}
+/* .main h1:hover:after{
+
+    width: 0%;
+
+} */
+@keyframes underline{
+
+    100%{
+        width: 100% ;
+        left: 100%
+    }
+}
+
+.card-grid{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-grid .item{
+  max-width: 30%;
+  flex: 0 0 30%
 }

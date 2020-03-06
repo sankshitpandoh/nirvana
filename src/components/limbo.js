@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
 import './stylesheet.css'
+import limbo from './limbo.svg'
 
 export function Limbo(){
     return(
@@ -11,7 +12,7 @@ export function Limbo(){
       Do your friends call you down to Earth? Then get ready to roll.
       Last man standing rules. Only the strongest will be rewarded!
       </p>
-      <h3></h3>
+      <img src={limbo} alt="limbo"/>
       </div>
     )
 }
