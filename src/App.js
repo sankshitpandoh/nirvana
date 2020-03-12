@@ -10,6 +10,7 @@ import {Chop} from './components/chop-shot.js'
 import {Mortal} from './components/mortal-combat.js'
 import {Tic} from './components/tic-toe.js'
 import {Who} from './components/who-we.js'
+import {What} from './components/what-we-did.js'
 
 export default class App extends Component{
   constructor(){
@@ -23,6 +24,7 @@ export default class App extends Component{
     this.handleClick6 = this.handleClick6.bind(this)
     this.handleClick7 = this.handleClick7.bind(this)
     this.handleClick8 = this.handleClick8.bind(this)
+    this.handleClick9 = this.handleClick9.bind(this)
     this.state={
       initial: 1,
       l: "url("+bg+")",
@@ -34,6 +36,7 @@ export default class App extends Component{
       l6: "none",
       l7: "none",
       l8: "none",
+      l9: "none",
       c: "black",
       c1: "white",
       c2: "white",
@@ -43,6 +46,7 @@ export default class App extends Component{
       c6: "white",
       c7: "white",
       c8: "white",
+      c9: "white"
     }
 }
 handleClick(){
@@ -57,6 +61,7 @@ handleClick(){
         l6: "none",
         l7: "none",
         l8: "none",
+        l9: "none",
         c:  "black",
         c1: "white",
         c2: "white",
@@ -66,6 +71,7 @@ handleClick(){
         c6: "white",
         c7: "white",
         c8: "white",
+        c9: "white"
     })
 }
 handleClick1(){
@@ -80,6 +86,7 @@ handleClick1(){
     l6: "none",
     l7: "none",
     l8: "none",
+    l9: "none",
     c:  "white",
     c1: "black",
     c2: "white",
@@ -89,6 +96,7 @@ handleClick1(){
     c6: "white",
     c7: "white",
     c8: "white",
+    c9: "white"
   })
 }
 handleClick2(){
@@ -103,6 +111,7 @@ handleClick2(){
     l6: "none",
     l7: "none",
     l8: "none",
+    l9: "none",
     c: "white",
     c1: "white",
     c2: "black",
@@ -112,6 +121,7 @@ handleClick2(){
     c6: "white",
     c7: "white",
     c8: "white",
+    c9: "white"
   })
 }
 handleClick3(){
@@ -126,6 +136,7 @@ handleClick3(){
     l6: "none",
     l7: "none",
     l8: "none",
+    l9: "none",
     c: "white",
     c1: "white",
     c2: "white",
@@ -135,6 +146,7 @@ handleClick3(){
     c6: "white",
     c7: "white",
     c8: "white",
+    c9: "white"
   })
 }
 handleClick4(){
@@ -149,6 +161,7 @@ handleClick4(){
     l6: "none",
     l7: "none",
     l8: "none",
+    l9: "none",
     c: "white",
     c1: "white",
     c2: "white",
@@ -158,6 +171,7 @@ handleClick4(){
     c6: "white",
     c7: "white",
     c8: "white",
+    c9: "white"
   })
 }
 handleClick5(){
@@ -172,6 +186,7 @@ handleClick5(){
     l6: "none",
     l7: "none",
     l8: "none",
+    l9: "none",
     c:  "white",
     c1: "white",
     c2: "white",
@@ -181,6 +196,7 @@ handleClick5(){
     c6: "white",
     c7: "white",
     c8: "white",
+    c9: "white"
   })
 }
 handleClick6(){
@@ -195,6 +211,7 @@ handleClick6(){
     l6: "url("+bg+")",
     l7: "none",
     l8: "none",
+    l9: "none",
     c: "white",
     c1: "white",
     c2: "white",
@@ -204,6 +221,7 @@ handleClick6(){
     c6:"black",
     c7: "white",
     c8: "white",
+    c9: "white"
   })
 }
 handleClick7(){
@@ -218,6 +236,7 @@ handleClick7(){
     l6: "none",
     l7: "url("+bg+")",
     l8: "none",
+    l9: "none",
     c: "white",
     c1: "white",
     c2: "white",
@@ -227,6 +246,7 @@ handleClick7(){
     c6: "white",
     c7: "black",
     c8: "white",
+    c9: "white"
 
   })
 }
@@ -242,6 +262,7 @@ handleClick8(){
     l6: "none",
     l7: "none",
     l8: "url("+bg+")",
+    l9: "none",
     c: "white",
     c1: "white",
     c2: "white",
@@ -250,8 +271,34 @@ handleClick8(){
     c5: "white",
     c6: "white",
     c7: "white",
-    c8:"black",
+    c8: "black",
+    c9: "white"
   })
+}
+  handleClick9(){
+    this.setState({
+      initial: 9,
+      l: "none",
+      l1: "none",
+      l2: "none",
+      l3: "none",
+      l4: "none",
+      l5: "none",
+      l6: "none",
+      l7: "none",
+      l8: "none",
+      l9: "url("+bg+")",
+      c: "white",
+      c1: "white",
+      c2: "white",
+      c3: "white",
+      c4: "white",
+      c5: "white",
+      c6: "white",
+      c7: "white",
+      c8: "white",
+      c9: "black"
+    })
 }
 
 renderElement(){
@@ -292,6 +339,10 @@ renderElement(){
   return(
     <Who />
   )
+  if (this.state.initial === 10)
+  return(
+    <What />
+  )
 
   return null;
 }
@@ -309,6 +360,7 @@ renderElement(){
                     <div onClick={this.handleClick6} style={{backgroundImage: this.state.l6, color: this.state.c6 }} className='bt'>Mortal Kombat</div>
                     <div onClick={this.handleClick7} style={{backgroundImage: this.state.l7, color: this.state.c7 }} className='bt'>Flic Tac Toe</div>
                     <div onClick={this.handleClick8} style={{backgroundImage: this.state.l8, color: this.state.c8 }} className='bt'>Who we are</div>
+                    <div onClick={this.handleClick9} style={{backgroundImage: this.state.l9, color: this.state.c9 }} className='bt'>What We Did</div>
                     </div>
                     <div className='display'>
                       {this.renderElement()}
