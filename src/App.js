@@ -277,7 +277,7 @@ handleClick8(){
 }
   handleClick9(){
     this.setState({
-      initial: 9,
+      initial: 10,
       l: "none",
       l1: "none",
       l2: "none",
