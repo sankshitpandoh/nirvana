@@ -58,6 +58,20 @@
 .price-cont .price:nth-child(2){
   color: #ffda1e
 }
+.main .did-heading{
+  color: #ffda1e;
+}
+.main .did{
+  font-size: 18px;
+  color: #fff;
+  text-align: left;
+  font-family: 'Spartan MB';
+  font-weight: 100;
+  letter-spacing:2px;
+  line-height: 30px;
+  margin-left: auto;
+  width: 50%;
+}
 
 @keyframes underline{
 
