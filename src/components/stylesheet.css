@@ -27,7 +27,7 @@
 .main p:nth-child(4){
   color: #ffda1e
 }
-.main img{
+.main .avatars{
   width: 50%;
   margin-left: auto;
 }
@@ -57,6 +57,28 @@
 }
 .price-cont .price:nth-child(2){
   color: #ffda1e
+}
+.main .did-heading{
+  color: #ffda1e;
+}
+
+.main .did{
+  font-size: 18px;
+  color: #fff;
+  text-align: left;
+  font-family: 'Spartan MB';
+  font-weight: 100;
+  letter-spacing:2px;
+  line-height: 30px;
+  width: 50%;
+  margin-left: auto;
+}
+.main .img-carosel{
+  float: left;
+  box-sizing: border-box;
+  width: 35%;
+  top: 270px;
+  position: absolute;
 }
 
 @keyframes underline{

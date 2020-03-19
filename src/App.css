@@ -7,6 +7,17 @@
   url(./fonts/LeagueSpartan-Bold.woff2) format('woff2'),
   url(./fonts/LeagueSpartan-Bold.ttf) format('ttf');
 }
+@font-face {
+  font-family: 'Spartan MB';
+  src: url('./fonts/SpartanMB-Light.eot?#iefix') format('eot'),
+      url('./fonts/SpartanMB-Light.woff2') format('woff2'),
+      url('./fonts/SpartanMB-Light.woff') format('woff'),
+      url('./fonts/SpartanMB-Light.ttf') format('ttf'),
+      url('./fonts/SpartanMB-Light.svg#SpartanMB-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
 .container{
   display: -webkit-box;
   display: -ms-flexbox;
