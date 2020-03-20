@@ -1,6 +1,15 @@
 import React,{Component} from 'react'
 import './stylesheet.css'
 import test from './photo1.png'
+import test1 from './photo2.png'
+import test2 from './photo3.png'
+import test3 from './photo4.png'
+import test4 from './photo5.png'
+import test5 from './photo6.png'
+import test6 from './photo7.png'
+import test7 from './photo8.png'
+import test8 from './photo9.png'
+import test9 from './photo10.png'
 
 export function What(){
     return(
@@ -9,7 +18,7 @@ export function What(){
           what we did.
         </h1>
         <div class="video-frame">
-          <img src={test}></img>
+          <img src={test9}></img>
         </div>
         
         <h3 class="did">
