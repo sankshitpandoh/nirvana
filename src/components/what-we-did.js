@@ -1,6 +1,7 @@
 import React,{Component} from 'react'
 import './stylesheet.css'
-import carosel1 from './Untitled-1.png'
+import video from './nirvanavideo.mp4'
+
 
 export function What(){
     return(
@@ -8,8 +9,8 @@ export function What(){
         <h1 class="did-heading">
           what we did.
         </h1>
-        <div class="img-carosel">
-        <img src={carosel1} />
+        <div class="video-frame">
+          <video src={video} autoplay="true" loop="true" muted="true"></video>
         </div>
         
         <h3 class="did">
